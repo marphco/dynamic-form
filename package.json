@@ -1,0 +1,14 @@
+{
+    "name": "dynamic-form",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+  "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
+  "start-frontend": "cd frontend && npm run start-frontend",
+  "start-backend": "cd backend && ./start-backend.sh"
+},
+    "devDependencies": {
+      "concurrently": "^7.6.0"
+    }
+  }
+  
